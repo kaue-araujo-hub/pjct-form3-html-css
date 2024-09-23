@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário de cadastro">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <!--general-structure-container-form-->
+    <div class="container">
+
+        <!--form-bg-image-left-side-->
+        <div class="form-image">
+            <img src="bg-login-screen.svg" alt="bg-login-screen">
+        </div>
+
+        <!--form-fields-right-side-->
+        <div class="form-fields">
+            <form action="#">
+
+                <!--form-header-title-and-button-->
+                <div class="form-header">
+
+                    <!--form-title-->
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                
+                    <!--form-login-button-->
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <!--form-fields-input-group-->
+                <div class="input-group">
+
+                    <!--form-firstname-input-field-->
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input type="text" name="firstname" id="id-firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+                    
+                    <!--form-lastname-input-field-->
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input type="text" name="lastname" id="id-lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <!--form-email-input-field-->
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="id-email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <!--form-cel-input-field-->
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input type="tel" name="number" id="id-number" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <!--form-password1-input-field-->
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input type="password" name="password" id="id-password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <!--form-password2-input-field-->
+                    <div class="input-box">
+                        <label for="password">Confirme sua senha</label>
+                        <input type="password" name="password" id="id-confirm-password" placeholder="Confirme sua senha" required>
+                    </div>
+
+                    <!--form-radio-input-field-->
+                    <div class="input-genders">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <!--radio-input-female-->
+                            <div class="gender-input">
+                                <input type="radio" name="gender" id="id-female">
+                                <label for="female">Feminino</label>
+                            </div>
+                            <br>
+                            <!--radio-input-male-->
+                            <div class="gender-input">
+                                <input type="radio" name="gender" id="id-male">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <br>
+
+                            <!--radio-input-others-->
+                            <div class="gender-input">
+                                <input type="radio" name="gender" id="id-others">
+                                <label for="others">Outros</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--continue-button-->
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
